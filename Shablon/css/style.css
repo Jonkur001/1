@@ -1,0 +1,106 @@
+/* 
+1. Общие стили
+2. About me
+3. Project
+4. WorkExperience
+5. Education
+6. Aside
+ */
+
+/* 1 Общие стили */
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    background-color: #e5e5e5;
+    padding: 40px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+    background: #fff;
+    width: 1280px;
+    height: 1319px;
+    margin: 0 auto;
+    box-shadow: 4px 8px 8px rgb(214, 214, 214);
+}
+
+.wrapper>div { padding: 0 216px 0 88px; }
+
+h1, h2, h3, h4, h5, h6 { font-family: 'Montserrat' bold; }
+h1 { font-size: 44px; line-height: 19px; }
+h2 { font-size: 18px; line-height: 0; }
+h3 { font-size: 24px; line-height: 8px; margin-bottom: 30px;}
+h4 { font-size: 16px; line-height: 0; }
+h5 { font-size: 14px; line-height: 0; }
+p { margin-bottom: 0; }
+
+ul { margin-left: 16px; padding: 0; }
+
+/* 2 About me */
+
+.text-intro { width: 524px; margin-top: 104px; }
+
+.text-intro>p { font-style: normal; font-weight: 400; }
+
+/* 3 Project */
+
+.project { margin-top: 64px; width: 524px; }
+
+.project>ul { list-style-type: decimal; }
+
+.project>ul>li { font-weight: bold; }
+
+.project>ul>li>span { font-weight: normal; color: #595959 }
+
+.project>ul>li>a {
+    font-weight: normal;
+    text-decoration: none;
+    color: #005FFF;
+}
+
+/* 4 WorkExperience */
+
+.workExperience { margin-top: 52px; }
+
+.workExperience>div>h4>span { color: #6D9BF5; }
+
+.workExperience>div>p { color: #A8A8A8; }
+
+.workExperience>div>p>span { color: #000000; }
+
+/* 5 Education */
+
+.Education { margin-top: 44px; }
+
+.Education>div>p { font-size: 10px; }
+
+/* 6 Aside */
+
+aside { background-color: #E0EBFE; }
+
+aside>img { margin-top: 40px; }
+
+aside>div { padding: 0 40px; }
+
+aside>div>p { font-weight: bold; margin: 0; }
+
+aside>div>p>a { font-weight: normal; }
+
+aside>div>ul>li { color: #6D9BF5; }
+
+aside>div>ul>li>span { color: #000 }
+
+.phone-contacts {
+    text-decoration: none;
+    color: black;
+    padding-left: 8px;
+}
+
+.mail-contacts { color: #005FFF; padding-left: 8px; }
+
+.contacts-container { margin-top: 52px; font-weight: 400; }
+
+.techSkills-container { margin-top: 48px; font-weight: 400; }
+
+.softSkills-container { margin-top: 44px; font-weight: 400; }
